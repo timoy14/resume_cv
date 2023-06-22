@@ -26,16 +26,16 @@
     font-family: 'Readex Pro';
     line-height: 1.5em;
     box-sizing: border-box;
-    color: var(--mainTextColor);
+    color: var(--mainBgColor);
     
 }
 
 body{
-    background-color: var(--mainBgColor);            
+    background-color: var(--mainBgColor-light);            
 }
 
 p, span, li{
-    color: var(--secondaryTextColor);
+    color: var(--mainBgColor);
     font-size: 1em;
 }
 
@@ -68,6 +68,7 @@ li{
 
 #bio, a{
     font-weight: 300;
+    color: var(--mainBgColor);
 }
 
 #user-name{
@@ -83,7 +84,7 @@ li{
 }
 
 #email{
-    color: var(--mainTextColor);
+    color: var(--mainBgColor);
 }
 
 #socials--list{
@@ -95,7 +96,7 @@ li{
 
 #socials--list a{
     font-weight: 300;
-    color: var(--secondaryTextColor);
+    color: var(--mainBgColor);
     font-size: 0.9em;
     transition: 0.3s;
 }
@@ -107,6 +108,7 @@ li{
 }
 
 #qualifications--list{
+    text-align: justify;
     list-style: none;
 }
 
